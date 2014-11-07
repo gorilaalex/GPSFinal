@@ -1,0 +1,10 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="measure_unit_type"
+        android:title="@string/pref_measure_unit"
+        android:entries="@array/pref_measure_unit_short"
+        android:entryValues="@array/pref_measure_unit_values"
+        android:defaultValue="0"
+        />
+</PreferenceScreen>
